@@ -6,6 +6,7 @@
   ],
   "plugins": ["stylelint-order"],
   "rules": {
+    "color-function-notation": "legacy",
     "no-empty-source": null,
     "custom-property-pattern": null,
     "declaration-empty-line-before": null,
