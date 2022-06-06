@@ -1,3 +1,22 @@
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+
+  color: white;
+
+  background-color: #211f1f;
+
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  scroll-behavior: smooth;
 }
