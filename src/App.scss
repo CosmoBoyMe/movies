@@ -1,0 +1,19 @@
+.movies {
+  &__container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  &__cards-list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(270px, 318px));
+    grid-gap: 64px 32px;
+
+    list-style: none;
+  }
+
+  &__search-form {
+    margin-bottom: 100px;
+  }
+}
